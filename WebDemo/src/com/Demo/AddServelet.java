@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class AddServelet  extends HttpServlet{
+	//servece method accepts both post and get method
+	// dopost only allows post request
+	// by default get method is present in form , have to change it post
+	// changing method to post in form makes pamameters in url invisible
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
