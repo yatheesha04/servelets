@@ -8,6 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+//https://www.youtube.com/watch?v=GbF_nBLHP6A&list=PLsyeobzWxl7pUPF2xjjJiG4BKC9x_GY46&index=10
+
+
+
 public class AddServelet  extends HttpServlet{
 	//servece method accepts both post and get method
 	// dopost only allows post request
